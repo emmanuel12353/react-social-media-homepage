@@ -1,0 +1,61 @@
+.rightbar {
+    flex: 3;
+    margin: 40px;
+}
+.birthdayImg {
+    width: 60px;
+    margin: -2px;
+    border-radius: 50%;
+}
+.birthdayText {
+    margin: 10px;
+    text-align: center;
+}
+.birthdayTextCap {
+    font-weight: 900;
+    color: rgb(12, 49, 129);
+}
+
+.rightbarAds {
+    background-color: rgb(55, 46, 218);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.bit{
+    font-size: 50px;
+    font-weight: 700;
+}
+.adsText {
+    font-size: 20px;
+}
+.onlineChart {
+    font-size: 17PX;
+    font-weight: 800;
+    color: green;
+    margin-top: 20px;
+}
+.onlineF {
+    align-items: center;
+}
+.onlineFriends {
+    width: 50px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+.rightbarOnline {
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    margin: 13px;
+    margin-left: -9px;
+
+}
+.onlineFriendsNames {
+    margin-left: 20px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+}

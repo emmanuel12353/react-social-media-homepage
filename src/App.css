@@ -1,0 +1,631 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+ body {
+     font-family: 'Muli', sans-serif;
+     height: 100% !important;
+     background-color: #fff !important;
+     padding-bottom: 0 !important;
+     margin-bottom: 0 !important;
+     overflow-x: hidden;
+ }
+
+.first_sect {
+    background-image: url(../src/pages/component/products/img/a1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*.first_div {background-color: rgb(0,0,0,0.7); height: 100%; z-index: 999;}*/
+
+.get {
+    background-color: rgb(220, 20, 60);
+    color: #FFFFF0;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 20, 60);
+    height: 40px;
+    text-align: center;
+}
+
+.hearder_r {
+    margin-top: 60%;
+    margin-left: 5%;
+}
+
+.companyname {
+    margin-top: -20%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/*slider*/
+
+.tik {
+    width: 100%;
+    height: 500px;
+}
+
+.contain {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.row {
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(252, 245, 245);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Add an italic font style to all quotes */
+
+q {
+    font-style: italic;
+}
+
+
+/* Add a blue color to the author */
+
+.author {
+    color: rgb(2, 2, 2);
+}
+
+.img1 {
+    width: 100%;
+}
+
+.tink {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0ac1c;
+}
+
+.prop {
+    margin: 0px;
+}
+
+
+/*consult*/
+
+.consul {
+    background-image: url(../src/pages/component/products/img/page-header.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.consult {
+    background-color: rgba(15, 32, 126, 0.4);
+}
+
+.consulttext {
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+.consultp {
+    color: white;
+    font-size: 18px;
+}
+
+.consultb {
+    box-shadow: 0px 15px 20px rgba(93, 104, 167, 0.4);
+    margin-bottom: 100px;
+    width: 250px;
+}
+
+.welcome-bg1 {
+    width: 100%;
+}
+
+
+/*hr tag*/
+
+.tac {
+    width: 10%;
+    color: rgb(44, 60, 112);
+    border: 1px solid rgb(44, 60, 112);
+}
+
+.tun {
+    width: 10%;
+    color: rgb(194, 190, 186);
+    border: 1px solid rgb(194, 190, 186);
+}
+
+
+/*SVG*/
+
+.sinc {
+    color: rgb(44, 60, 112);
+    margin-left: 10%;
+}
+
+.prep {
+    margin: 0px;
+}
+
+.prip {
+    margin: 40px;
+}
+
+.git {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/*imagination*/
+
+.imaginations {
+    background-color: rgb(245, 244, 244);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.imaginate {}
+
+.imaginat {
+    font-size: 30px;
+    color: #e0ac1c;
+    padding-right: 100px;
+}
+
+.imaginat span {
+    font-size: 40px;
+}
+
+.para {
+    color: rgb(44, 60, 112);
+    text-align: left;
+    font-size: 20px;
+}
+
+.img4 {
+    width: 100%;
+    height: 400px;
+    right: 0px;
+}
+
+.fak {
+    color: rgb(16, 16, 92);
+}
+
+.img9 {
+    width: 100%;
+}
+
+
+/*AUTOMATIC TIMER*/
+
+.circular-progress-bar {
+    position: relative;
+    margin: 0 auto;
+    transform: rotate(-90deg);
+}
+
+.progress-percentage,
+.progress-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    text-align: center;
+    padding: 0px 60px;
+}
+
+.progress-percentage {
+    font-size: 60px;
+    left: 60%;
+}
+
+.progress-text {
+    left: 35%;
+    color: #585858;
+    font-size: 21px;
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    bottom: 0;
+}
+
+ h5 {
+     font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .fa {
+     cursor: pointer;
+     font-size: 21px;
+     margin: 5px 10px 5px 10px !important
+ }
+
+ 
+
+ li {
+     margin-top: 8px;
+     margin-bottom: 8px
+ }
+
+ input::-webkit-input-placeholder {
+     padding-left: 5px !important;
+     transform: translate3d(0, -2px, 0)
+ }
+
+ input::placeholder {
+     vertical-align: middle !important;
+     color: rgb(196, 193, 193) !important;
+     font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ input {
+     border-radius: 2px !important;
+     background: transparent !important;
+     color: #FFFFFF !important
+ }
+
+ input:focus {
+     -moz-box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline-width: 0;
+     border-color: #FFFFFF !important
+ }
+
+ li:first-child {
+     font-size: 18px !important;
+     font-weight: bold
+ }
+
+ footer {
+     background-color: #383431 !important;
+     color: #FFFFFF !important
+ }
+
+ small {
+     font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     position: relative;
+     left: -10px
+ }
+
+ .Subscribe {
+     background-color: #FFFFFF !important;
+     color: #383431 !important;
+     font-weight: bold
+ }
+
+ li:not(:first-child) {
+     color: rgb(196, 193, 193) !important
+ }
+/* Here is the code for Responsive Footer */
+
+
+/* You can remove below code if you don't want Footer to be responsive */
+
+@media (max-width: 1000px) {
+    .prop {
+        margin: 0px;
+    }
+    /*slider*/
+    .tik {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 880px) {
+    .prop {
+        margin: 0px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    * {
+        box-sizing: content-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .brand-title {
+        width: 40px;
+        font-weight: bolder;
+        left: 0px;
+    }
+    .brand-title img {
+        width: 100px;
+        font-weight: bolder;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-links ul li {
+        padding-bottom: 40px;
+    }
+    .navbar-links ul li:hover {
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .first_sect {
+        background-image: url(../src/pages/component/products/img/gafarin.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .hearder_r {
+        margin-top: 70%;
+        margin-left: 5%;
+    }
+    .companyname {
+        margin-top: 50%;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        text-align: center;
+    }
+    hr.solid {
+        border-top: 1px solid;
+        color: rgb(220, 20, 60);
+        width: 40%;
+    }
+    .bar1 {
+        display: flex;
+    }
+    .bar2 {
+        display: flex;
+    }
+    .bar3 {
+        display: flex;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    .hearder_r {
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    .img2 {
+        width: 200px;
+        height: 170px;
+        padding: 15px;
+    }
+    .prep {
+        margin: 0px;
+    }
+    .prop {
+        margin: 0px;
+    }
+    /* The footer is fixed to the bottom of the page */
+    footer {
+        bottom: 0;
+    }
+    .footer-distributed {
+        background-color: #2c292f;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 50px 50px 60px 50px;
+        margin-top: 80px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+    /* Footer left */
+    .footer-distributed .footer-left {
+        width: 30%;
+    }
+    .footer-distributed h3 {
+        color: #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+    /* The company logo */
+    .footer-distributed .footer-left img {
+        width: 30%;
+    }
+    .footer-distributed h3 span {
+        color: #e0ac1c;
+    }
+    /* Footer links */
+    .footer-distributed .footer-links {
+        color: #ffffff;
+        margin: 20px 0 12px;
+    }
+    .footer-distributed .footer-links a {
+        display: inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+    }
+    .footer-distributed .footer-company-name {
+        color: #8f9296;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+    }
+    /* Footer Center */
+    .footer-distributed .footer-center {
+        width: 35%;
+    }
+    .footer-distributed .footer-center i {
+        background-color: #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+    .footer-distributed .footer-center i.fa-envelope {
+        font-size: 17px;
+        line-height: 38px;
+    }
+    .footer-distributed .footer-center p {
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin: 0;
+    }
+    .footer-distributed .footer-center p span {
+        display: block;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 2;
+    }
+    .footer-distributed .footer-center p a {
+        color: #e0ac1c;
+        text-decoration: none;
+        ;
+    }
+    /* Footer Right */
+    .footer-distributed .footer-right {
+        width: 30%;
+    }
+    .footer-distributed .footer-company-about {
+        line-height: 20px;
+        color: #92999f;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+    }
+    .footer-distributed .footer-company-about span {
+        display: block;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .footer-distributed .footer-icons {
+        margin-top: 25px;
+    }
+    .footer-distributed .footer-icons a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
